@@ -11,7 +11,8 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "start": "serve dist -s -n -L -p $PORT"
   },
   "dependencies": {
     "justo": "^1.0.0-alpha3.7"
